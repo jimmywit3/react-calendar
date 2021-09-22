@@ -121,7 +121,7 @@ var Tile = /*#__PURE__*/function (_Component) {
         type: "button"
       }, formatAbbr ? /*#__PURE__*/_react["default"].createElement("abbr", {
         "aria-label": formatAbbr(locale, date)
-      }, children) : children, tileContent, 333);
+      }, children) : children, tileContent);
     }
   }], [{
     key: "getDerivedStateFromProps",

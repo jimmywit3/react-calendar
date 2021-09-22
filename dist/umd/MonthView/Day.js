@@ -55,7 +55,7 @@ function Day(_ref) {
     maxDateTransform: _dateUtils.getDayEnd,
     minDateTransform: _dateUtils.getDayStart,
     view: "month"
-  }), formatDay(locale, date), 333);
+  }), formatDay(locale, date));
 }
 
 Day.propTypes = _objectSpread(_objectSpread({}, _propTypes2.tileProps), {}, {
