@@ -38,7 +38,7 @@ export default function Day(_ref) {
     maxDateTransform: getDayEnd,
     minDateTransform: getDayStart,
     view: "month"
-  }), formatDay(locale, date));
+  }), formatDay(locale, date), 333);
 }
 Day.propTypes = _objectSpread(_objectSpread({}, tileProps), {}, {
   currentMonthIndex: PropTypes.number.isRequired,
